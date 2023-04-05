@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+     font-family: 'TheJamsil3Regular';
+ 
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+ }
+
+ ul,li{
+    list-style: none;
+ }
+
+/* //////////////////////////////////////////// */
+
+section .cs_quickmenu{
+	width: 250px;
+	height: 500px;
+	/*background-color: blue;*/
+	float: right;
+	border: solid;
+	border-width: 1px;
+	
+}
+
+section .cs_quickmenu ul li{
+	margin-bottom: 50px;
+}
+
+section{
+    width: 100%;
+
+}
+
+section .cscenter_faq{
+    width: 1100px;
+    height: 1500px;  
+    margin: 0 auto;
+}
+
+section #faq_title_wrap{
+    margin-top: 100px;
+}
+
+section #faq_title_wrap h1{
+    font-size: 50px;
+}
+
+
+
+section .faq_list_wrap{
+    width: 1050px;
+    height: 600px;
+    margin-top: 70px;
+    
+}
+
+section #faq_box_big1, #faq_box_big2{
+    width: 45%;
+    height: 200px;
+    float: left;
+    padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	position: relative;
+
+
+    
+}
+
+section #faq_re1{
+	width: 850px;
+	height: 600px;
+	background-color: gray;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+section #faq_box_big1 p:nth-child(1),#faq_box_big2 p:nth-child(1){
+	font-size: 40px;
+	
+}
+
+section #faq_box_big2 p:nth-child(2), #faq_box_big2 p:nth-child(2){
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+
+section .faq_box_small{
+	width: 20%;
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	/*border: solid;
+	border-width: 1px;*/
+	margin-bottom: 30px;
+}
+
+section .faq_box_small p:nth-child(1){
+	font-size: 20px;
+
+}
+section .faq_box_small p:nth-child(2){
+	font-size: 15px;
+	margin-top: 10px;
+
+}
+
+section #faq_box_big1:hover, #faq_box_big2:hover{
+	background-color:  #7E7DCB;
+	color: white;
+}
+
+section .faq_box_small:hover{
+	background-color:  #7E7DCB;
+	color: white;
+}
+
+
+
